@@ -1,0 +1,254 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: Arial, sans-serif;
+  
+    background-color: #f4f4f4;
+}
+
+.container{
+    margin:0 auto;
+    width: 80%;
+    
+    margin-bottom: 15px;
+}
+/* general css */
+header {
+    color: #fff;
+    padding: 1rem 0;
+}
+.bg{
+    background-color: #333;
+    border-radius:15px;
+}
+.userInfo{
+    padding: 2rem 2rem 0 2rem;
+    text-align: center;
+}
+.name{
+    color: white;
+    font-size: xx-large;
+}
+.mager{
+    color:#5c5c5c ;
+    margin: 10px 0;
+}
+
+.navbar{
+position: relative;
+text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+   margin: 0;
+    
+}
+
+nav ul li {
+    margin: 0 1rem;
+    display: inline;
+
+}
+
+nav ul li .link {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.link:hover{
+    color: rgb(163, 115, 25);
+}
+
+#home {
+    background-color: #444;
+    color: #fff;
+}
+
+
+/*  First section css */
+.aboutme{
+    padding: 1rem;
+    background-color: white;
+    border-radius:15px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    height: 28vh;
+}
+#about{
+    display: block;
+
+}
+
+
+
+.projectExample {
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+    width: 18%;
+    background-color: #8f3199;
+    border-radius: 20px;
+    position: absolute;
+    height: 22vh;
+   
+left: 10%;
+top: 40%;
+overflow: hidden;
+}
+
+.aboutImg{
+    border-radius: 50%;
+    width: 120px;
+    position: absolute;
+    left: calc(100% - 60%);
+    top: 100px;
+}
+/* about me  */
+.skills{
+    background-image: url("./linked-abstract-white-humanheadline-background-260nw-1864173772.webp");
+    border-radius:15px;
+    padding: 1rem;
+    margin-top: 50px;
+}
+.logo{
+    color: white;
+
+}
+.skills .navbar{
+    background-color: rgba(199, 187, 190, 0.7);
+    text-align: start;
+    border-radius: 17px;
+margin: 10px ;
+padding: 10px;
+}
+.skills .navbar ul{
+    width: 100%;
+    
+}
+.skills .skillPoint{
+    display: inline;
+    background-color:#54a85d ;
+    transition: 0.5s;
+    border-style: none;
+    padding: 10px 5px;
+    border-radius: 10px;
+color: white;
+width: calc(100% / 9);
+margin: 5px 2px;
+}
+.skills .skillPoint:hover{
+background-color: #44924f;
+transform: translateY(-8px);
+}
+/* Skills */
+
+
+
+#projects{
+background-color: white;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+padding: 10px ;
+margin-top: 50px;
+}
+
+.project{
+    width: 30%;
+    text-align: center;
+    margin-top: 10px;
+    padding: 15px 10px;
+    border-radius: 7px;
+}
+.pro{
+    background-color: #495e6b;
+    text-align: center;
+    
+    padding: 15px 10px 50px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+
+.section{
+    margin-left: 20px;
+}
+
+
+/* Project */
+
+
+
+.contact-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+.contact-form h2 {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: 2px #44924f solid !important;
+
+
+}
+.contact-form button {
+    
+    padding: 10px;
+    background-color: white;
+    color: #44924f;
+    border: 1px #44924f solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #54a85d;
+    color: white;
+    border-color: #54a85d;
+}
+/* form Contact me  */
+.footer{
+    background-color:#444 ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+cursor: pointer;
+border-radius: 5px;
+}
+.yellow{
+    color: gold ;
+    transition: 0.3s all;
+text-decoration: none; 
+}
+.yellow:hover{
+    color: white;
+}
+
+
